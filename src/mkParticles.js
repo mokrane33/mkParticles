@@ -4,6 +4,7 @@
 /**
  * Created by User on 16/08/2018.
  */
+var canvacontainer='canva';
 function MkParticles(cc){
     var that = this;
     var interpole, canvas=cc, context, independents,mouseFollows, gameObjects = [], destroyables = [], current = "logo";
@@ -659,10 +660,10 @@ function MkParticles(cc){
     });
     init();
 }
-if(document.getElementById('canvas')){
-    var canvas = document.createElement('canvas');
+if(document.getElementById(canvacontainer)){
+    var canvas = document.createElement(canvacontainer);
 
-    div = document.getElementById('canvas');
+    div = document.getElementById(canvacontainer);
     div.style.position="relative";
     canvas.style.width  = "100%";
     canvas.style.height = "100%";
