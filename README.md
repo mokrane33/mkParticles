@@ -17,9 +17,13 @@ First create your container
 				-----------
  </div>
  change this line in mkParticles.js
+ 
  var canvacontainer='canva';
+ 
  by
+ 
  var canvacontainer='mparticle';
+ 
  License
 -
 Copyright (c) 2018 Mokrane K
