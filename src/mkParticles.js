@@ -4,7 +4,7 @@
 /**
  * Created by User on 16/08/2018.
  */
-var canvacontainer='canva';
+var canvacontainer='canvas';
 function MkParticles(cc){
     var that = this;
     var interpole, canvas=cc, context, independents,mouseFollows, gameObjects = [], destroyables = [], current = "logo";
